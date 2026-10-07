@@ -1,0 +1,13 @@
+lista_invitados=['bad', 'auron', 'pepe']
+print(f" invito al cantante {lista_invitados[0]}")
+print(f" invito al streamer {lista_invitados[1]}")
+print(f" invito a mi amigo {lista_invitados[2]}")
+print(f" no puede venir {lista_invitados[0]}")
+lista_invitados.remove('bad')
+lista_invitados.insert(0, "spiderman")
+print(lista_invitados)
+print("al final hay una mesa más grande")
+lista_invitados.insert(0, "messi")
+lista_invitados.insert(2, "cr7")
+lista_invitados.append('wolverine')
+print(lista_invitados)
